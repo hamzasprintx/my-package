@@ -9,3 +9,5 @@ function removeArrayDuplicates(arr) {
   let uniqueArr = [...theSet];
   return uniqueArr;
 }
+
+exports.removeArrayDuplicates = removeArrayDuplicates;
